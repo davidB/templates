@@ -6,7 +6,10 @@ variables:
   - name: author
   - name: owner
     default_value: "davidB"
-    ask: Owner of the project (on github / azure)
+    ask: Owner of the project (on github)
+  - name: owner_azure
+    default_value: "davidbernard31"
+    ask: Owner of the project (on azure)
   - name: description
     default_value: ""
   - name: gitignore_what
